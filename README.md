@@ -5,3 +5,8 @@ The purpose of this project is to build an ETL pipeline that will be able to ext
 ## Database Schema Design
 
 ![Our Database looks like the following](https://github.com/hamadalaqeel/data-lake-aws/blob/master/Database%20Schema.png)
+
+## Instructions
+- Add appropriate AWS IAM Credentials in `dl.cfg`
+- Specify desired output data path in the main function of `etl.py`
+- Run `etl.py`
